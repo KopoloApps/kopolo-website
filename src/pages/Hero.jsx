@@ -1,6 +1,6 @@
 import React from 'react';
 import hero from '../assets/hero.jpg';
-import GreenBtn from '../components/GreenBtn';
+// import GreenBtn from '../components/GreenBtn';
 //import Services from "./Services";
 
 const Hero = () => {

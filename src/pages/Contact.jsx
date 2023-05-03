@@ -1,5 +1,6 @@
 import { FiPhoneCall, FiMail, FiMapPin, FiUser } from 'react-icons/fi';
 import Navbar from '../components/Navbar';
+import React from 'react';
 
 const Contact = () => {
 	return (

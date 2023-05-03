@@ -10,8 +10,9 @@ const Teams = () => {
 						alt=""
 						width="100%"
 						height="100%"
-						layout="responsive"
-						objectFit="contain"
+						// layout="responsive"
+						// objectFit="contain"
+						className="object-cover w-full h-full"
 					/>
 				</div>
 				<div className="">
@@ -20,8 +21,9 @@ const Teams = () => {
 						alt=""
 						width="100%"
 						height="100%"
-						layout="responsive"
-						objectFit="contain"
+						// layout="responsive"
+						// objectFit="contain"
+						className="object-cover w-full h-full"
 					/>
 				</div>
 				<div className="my-auto ">
@@ -30,8 +32,9 @@ const Teams = () => {
 						alt=""
 						width="100%"
 						height="100%"
-						layout="responsive"
-						objectFit="contain"
+						// layout="responsive"
+						// objectFit="contain"
+						className="object-cover w-full h-full"
 					/>
 					<h3 className="text-gray-50">Welcome</h3>
 				</div>

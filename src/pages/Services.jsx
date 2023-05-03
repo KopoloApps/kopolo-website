@@ -13,24 +13,26 @@ const Services = () => {
 		{
 			id: 2,
 			title: 'Swara E-Health',
-			subtitle: `The goal of Swara's e-health strategy plan is to connect the provision of medical care with the possibilities of information technology. `,
+			subtitle:
+				"The goal of Swara's e-health strategy plan is to connect the provision of medical care with the possibilities of information technology. ",
 		},
 		{
 			id: 3,
 			title: 'Mzalendo Educare',
-			subtitle: `Creating a safer environment for children, young people, and adults by providing affordable education loans.`,
+			subtitle:
+				'Creating a safer environment for children, young people, and adults by providing affordable education loans.',
 		},
 		{
 			id: 4,
 			title: 'Kopolo Ecommerce',
-			subtitle: `Future of E-Commerce and Technology`,
+			subtitle: 'Future of E-Commerce and Technology',
 		},
 		{
 			id: 5,
 			title: 'Payment Integration Services',
 			subtitle: `Everything has changed according to customer payment choices. 
       Acknowledging credit/debit cards as well as mobile payments, prepaid cards, 
-      and  PayPal payments is now not only an option but a requirement for every 
+      and PayPal payments is now not only an option but a requirement for every 
       type of business, both in the business-to-consumer (B2C) ,consumer-to-business(C2B) 
       and business-to-business (B2B) sectors. This is because customers today expect to be able to pay in a variety of ways.Digitalizing payment methods will improve cash flow, decrease labor expenses, and reduce human error.`,
 		},

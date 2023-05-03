@@ -1,0 +1,7 @@
+dist/
+node_modules
+.gitignore
+.vscode
+__tests__
+coverage
+*.log

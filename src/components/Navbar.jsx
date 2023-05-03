@@ -1,5 +1,5 @@
-import logo from '../assets/logo/kopolo2.png';
-import React, { useState } from 'react';
+import logo from "../assets/logo/kopolo2.png";
+import React, { useState } from "react";
 import {
 	FaBars,
 	FaTimes,
@@ -7,11 +7,11 @@ import {
 	FaTwitch,
 	FaLinkedinIn,
 	FaTwitter,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
-import GreenBtn from './GreenBtn';
+import GreenBtn from "./GreenBtn";
 
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 //import Contact from "../pages/Contact";
 
 const Navbar = () => {
@@ -19,23 +19,23 @@ const Navbar = () => {
 	const links = [
 		{
 			id: 1,
-			link: 'home',
+			link: "home",
 		},
 		{
 			id: 2,
-			link: 'services',
+			link: "services",
 		},
 		{
 			id: 3,
-			link: 'about',
+			link: "about",
 		},
 		{
 			id: 4,
-			link: 'partner',
+			link: "partner",
 		},
 		{
 			id: 5,
-			link: 'contact',
+			link: "contact",
 		},
 	];
 
@@ -61,7 +61,7 @@ const Navbar = () => {
 					<ul className="hidden md:flex">
 						{links.map(({ id, link }) => (
 							<li
-								onClick={() => (window.location.href = '/')}
+								onClick={() => (window.location.href = "/")}
 								key={id}
 								className="capitalize cursor-pointer  hover:text-lightColor duration-200">
 								<Link
@@ -94,14 +94,14 @@ const Navbar = () => {
 			<div
 				className={
 					navigation
-						? 'md:hidden fixed left-0 top-0 w-full h-full bg-gray-900/70 backdrop-blur'
-						: ''
+						? "md:hidden fixed left-0 top-0 w-full h-full bg-gray-900/70 backdrop-blur"
+						: ""
 				}>
 				<div
 					className={
 						navigation
-							? 'fixed left-0 top-0 w-4/5 h-full bg-gray-900 text-white p-10 ease-in duration-500'
-							: 'fixed top-0 left-[-100%] h-full p-10 duration-500 ease-in'
+							? "fixed left-0 top-0 w-4/5 h-full bg-gray-900 text-white p-10 ease-in duration-500"
+							: "fixed top-0 left-[-100%] h-full p-10 duration-500 ease-in"
 					}>
 					<div>
 						<div className="flex w-full items-center justify-between">
@@ -151,7 +151,7 @@ const Navbar = () => {
 						<div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
 							<div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer">
 								<a href="https://www.linkedin.com/in/kopolo-limited-b62070248">
-									{' '}
+									{" "}
 									<FaLinkedinIn size={35} />
 								</a>
 							</div>

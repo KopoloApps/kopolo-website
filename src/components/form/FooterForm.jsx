@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 function FooterForm() {
-	const [email, setEmail] = React.useState('');
+	const [email, setEmail] = React.useState("");
 
 	const requestDemo = () => {
-		console.log('Email: ', email);
+		console.log("Email: ", email);
 	};
 
 	return (

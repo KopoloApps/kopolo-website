@@ -1,5 +1,5 @@
-import logo from '../assets/logo/kopolo2.png';
-import Icons from './Icons';
+import logo from "../assets/logo/kopolo2.png";
+import Icons from "./Icons";
 const Footer = () => {
 	return (
 		<>

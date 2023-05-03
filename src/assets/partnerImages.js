@@ -1,8 +1,8 @@
-import unga from '../assets/image/unga.png';
-import Makdukha2 from '../assets/image/Madukha2.png';
-import serena from '../assets/image/serena.png';
-import sarova from '../assets/image/sarova.png';
-import heritage from '../assets/image/heritage.png';
+import unga from "../assets/image/unga.png";
+import Makdukha2 from "../assets/image/Madukha2.png";
+import serena from "../assets/image/serena.png";
+import sarova from "../assets/image/sarova.png";
+import heritage from "../assets/image/heritage.png";
 
 export const data = [
 	{

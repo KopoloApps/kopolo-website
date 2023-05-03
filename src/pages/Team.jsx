@@ -1,5 +1,5 @@
-import React from 'react';
-import logo from '../assets/logo/kopolo2.png';
+import React from "react";
+import logo from "../assets/logo/kopolo2.png";
 const Teams = () => {
 	return (
 		<div>

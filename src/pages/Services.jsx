@@ -1,35 +1,35 @@
-import React from 'react';
-import { FaChevronCircleRight } from 'react-icons/fa';
+import React from "react";
+import { FaChevronCircleRight } from "react-icons/fa";
 
 const Services = () => {
 	const services = [
 		{
 			id: 1,
-			title: 'Kopolo Transport',
+			title: "Kopolo Transport",
 			subtitle: `Transportation is one of the most crucial facets of an organization's economic activities.
       By moving goods from the places where they are sourced to the places where they are needed, transportation serves the crucial purpose of linking a business to its suppliers and consumers.
       This establishes a connection between the business and its clients and suppliers. `,
 		},
 		{
 			id: 2,
-			title: 'Swara E-Health',
+			title: "Swara E-Health",
 			subtitle:
 				"The goal of Swara's e-health strategy plan is to connect the provision of medical care with the possibilities of information technology. ",
 		},
 		{
 			id: 3,
-			title: 'Mzalendo Educare',
+			title: "Mzalendo Educare",
 			subtitle:
-				'Creating a safer environment for children, young people, and adults by providing affordable education loans.',
+				"Creating a safer environment for children, young people, and adults by providing affordable education loans.",
 		},
 		{
 			id: 4,
-			title: 'Kopolo Ecommerce',
-			subtitle: 'Future of E-Commerce and Technology',
+			title: "Kopolo Ecommerce",
+			subtitle: "Future of E-Commerce and Technology",
 		},
 		{
 			id: 5,
-			title: 'Payment Integration Services',
+			title: "Payment Integration Services",
 			subtitle: `Everything has changed according to customer payment choices. 
       Acknowledging credit/debit cards as well as mobile payments, prepaid cards, 
       and PayPal payments is now not only an option but a requirement for every 

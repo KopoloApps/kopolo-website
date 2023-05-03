@@ -1,5 +1,5 @@
-import React from 'react';
-import hero from '../assets/hero.jpg';
+import React from "react";
+import hero from "../assets/hero.jpg";
 // import GreenBtn from '../components/GreenBtn';
 //import Services from "./Services";
 
@@ -15,7 +15,7 @@ const Hero = () => {
 							Using technology to link society
 						</p>
 						<h1 className="pt-1 pb-6 text-5xl md:text-7xl font-bold">
-							<span className="text-lightColor">KOPOLO</span>{' '}
+							<span className="text-lightColor">KOPOLO</span>{" "}
 							Limited
 						</h1>
 						<p className="text-base font-light text-gray-500">

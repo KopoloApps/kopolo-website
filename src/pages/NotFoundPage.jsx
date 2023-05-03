@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 const NotFoundPage = () => {
 	return (
 		<div className="relative h-screen items-center flex justify-center flex-col">

@@ -1,6 +1,6 @@
-import { FiPhoneCall, FiMail, FiMapPin, FiUser } from 'react-icons/fi';
-import Navbar from '../components/Navbar';
-import React from 'react';
+import { FiPhoneCall, FiMail, FiMapPin, FiUser } from "react-icons/fi";
+import Navbar from "../components/Navbar";
+import React from "react";
 
 const Contact = () => {
 	return (
@@ -118,7 +118,7 @@ const Contact = () => {
 								<label
 									htmlFor="remember"
 									className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-400">
-									I agree with the{' '}
+									I agree with the{" "}
 									<a
 										href="#"
 										className="text-blue-600 hover:underline dark:text-blue-500">

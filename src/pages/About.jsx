@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
 	const details = [
 		{
 			id: 1,
-			title: '24/7',
-			subtitle: 'Infinite Technology',
+			title: "24/7",
+			subtitle: "Infinite Technology",
 		},
 		{
 			id: 2,
-			title: '100%',
-			subtitle: 'services digitalization',
+			title: "100%",
+			subtitle: "services digitalization",
 		},
 	];
 
@@ -21,7 +21,7 @@ const About = () => {
 			<div className="flex flex-col items-center justify-center max-w-screen-xl mx-auto h-full px-3 py-12">
 				<div className="text-center">
 					<h2 className="text-4xl font-bold">
-						<span className="text-lightColor">KOPOLO</span>{' '}
+						<span className="text-lightColor">KOPOLO</span>{" "}
 						<span className="text-white">Mission</span>
 					</h2>
 					<p className="text-xl px-4 font-light text-gray-100 py-2">
@@ -30,7 +30,7 @@ const About = () => {
 						design
 					</p>
 					<h2 className="text-4xl font-bold">
-						<span className="text-white">KOPOLO</span>{' '}
+						<span className="text-white">KOPOLO</span>{" "}
 						<span className="text-lightColor">Vision</span>
 					</h2>
 					<p className="text-xl py-4 text-gray-100 font-light text-center">

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 //import { SiHiveBlockchain, SiStrapi, SiFsecure } from 'react-icons/si';
 //import { VscServerProcess } from 'react-icons/vsc';
-import { aboutus } from '../constants/About';
+import { aboutus } from "../constants/About";
 const WhoWe = () => {
 	return (
 		<div className="w-full bg-slate-800 text-white text-center">

@@ -1,16 +1,16 @@
-import React from 'react';
-import { data } from '../assets/partnerImages';
+import React from "react";
+import { data } from "../assets/partnerImages";
 //import unga from '../assets/image/unga.png';
-import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
+import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 const Partners = () => {
 	const slideLeft = () => {
-		var slider = document.getElementById('slider');
+		var slider = document.getElementById("slider");
 		slider.scrollLeft = slider.scrollLeft - 500;
 	};
 
 	const slideRight = () => {
-		var slider = document.getElementById('slider');
+		var slider = document.getElementById("slider");
 		slider.scrollLeft = slider.scrollLeft + 500;
 	};
 

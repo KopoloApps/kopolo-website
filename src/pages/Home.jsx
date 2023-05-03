@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 // import About from './About
 
-import heroVid from '../assets/video.mp4';
+import heroVid from "../assets/video.mp4";
 
 const Home = () => {
 	return (
